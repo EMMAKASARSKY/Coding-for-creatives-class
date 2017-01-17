@@ -1,0 +1,25 @@
+<style>
+
+		h1 {
+			color: rgb(109, 110, 106);
+			font-family: "Century Gothic", sans-serif; 
+			font-weight: bold; 
+			text-align: center;
+		}  
+
+		h2 {
+			align-content: center;
+		}
+
+		body {
+				background-color: rgb(247, 236, 247);
+				border: 6px dotted black
+		}
+
+		p {
+			color: black;
+			font-family:  "Century Gothic", sans-serif;
+			text-align: center;
+			font-size: smaller;
+		}
+		</style>
