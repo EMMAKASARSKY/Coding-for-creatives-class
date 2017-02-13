@@ -1,11 +1,12 @@
 function setup () {
-	create canvas (600, 400) ;
+	createCanvas(600, 400) ;
 	}
 
 function draw () {
-	background (66, 241, 244);
+	background(66, 241, 244);
 	strokeWeight(6);
-	fill (x, y, 100);
+	fill(x, y, 100);
+}
 	
 	var x = 0;
 	var y = 0;
@@ -19,7 +20,6 @@ function draw () {
 		y = y + 50;
 	}
 
-	
 	for (var x = 0; x <= width; x += 100)
 		for (var y = 0; y <= mouseY; y += 100) {
 		fill (random(255), 0, random(255));
